@@ -1,0 +1,3 @@
+dataset,raw_rows,cleaned_rows,unique_cds_codes,duplicate_cds_codes,missing_cds_codes,missing_names
+district_lookup,1017,1017,1017,0,0,0
+school_lookup,9982,9982,9982,0,0,0

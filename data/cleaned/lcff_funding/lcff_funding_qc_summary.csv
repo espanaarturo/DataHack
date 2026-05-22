@@ -1,0 +1,5 @@
+dataset,rows,school_years,unique_cds_codes,duplicate_year_cds,missing_cds_code,missing_total_funded_ada,missing_total_lcff_entitlement,missing_total_enrollment,missing_upc
+lcff_summary_all_leas,13690,6,2411,0,0,0,0,NA,NA
+lcff_summary_district_only,5987,6,1003,0,0,0,0,NA,NA
+calpads_upc_all_leas,13622,6,2378,0,0,NA,NA,0,0
+calpads_upc_district_only,5991,6,1004,0,0,NA,NA,0,0

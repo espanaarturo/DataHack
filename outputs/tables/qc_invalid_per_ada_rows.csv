@@ -1,0 +1,35 @@
+school_year,county_name,district_name,district_type,total_funded_ada,total_lcff_entitlement,raw_lcff_per_ada,raw_supp_conc_per_ada,raw_spending_per_ada,upc_percentage,upc_bin,zero_or_missing_ada,invalid_lcff_per_ada,invalid_supp_conc_per_ada,invalid_spending_per_ada
+2019_20,Alpine,Alpine County Office of Education,County Office of Education (COE),0,847932,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2019_20,Lassen,Lassen County Office of Education,County Office of Education (COE),0,2449076,Inf,NA,NA,27.272727272727273,25-40%,TRUE,TRUE,FALSE,FALSE
+2019_20,Modoc,Modoc County Office of Education,NA,0,1192072,Inf,NA,NA,92,70%+,TRUE,TRUE,FALSE,FALSE
+2019_20,Plumas,Plumas County Office of Education,County Office of Education (COE),0,1764180,Inf,NA,NA,72.72727272727273,70%+,TRUE,TRUE,FALSE,FALSE
+2019_20,Sierra,Sierra County Office of Education,NA,0,872758,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2020_21,Alpine,Alpine County Office of Education,County Office of Education (COE),0,848162,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2020_21,Lassen,Lassen County Office of Education,County Office of Education (COE),0,2449076,Inf,NA,NA,20,0-25%,TRUE,TRUE,FALSE,FALSE
+2020_21,Modoc,Modoc County Office of Education,NA,0,1193372,Inf,NA,NA,79.16666666666667,70%+,TRUE,TRUE,FALSE,FALSE
+2020_21,Plumas,Plumas County Office of Education,County Office of Education (COE),0,1764180,Inf,NA,NA,65,55-70%,TRUE,TRUE,FALSE,FALSE
+2020_21,Sierra,Sierra County Office of Education,NA,0,872758,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2021_22,Alpine,Alpine County Office of Education,County Office of Education (COE),0,889281,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2021_22,Lassen,Lassen County Office of Education,County Office of Education (COE),0,2449076,Inf,NA,NA,11.11111111111111,0-25%,TRUE,TRUE,FALSE,FALSE
+2021_22,Modoc,Modoc County Office of Education,NA,0,1250311,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2021_22,Plumas,Plumas County Office of Education,County Office of Education (COE),0,1764180,Inf,NA,NA,55.55555555555556,55-70%,TRUE,TRUE,FALSE,FALSE
+2021_22,Sierra,Sierra County Office of Education,NA,0,911772,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2021_22,Siskiyou,Siskiyou County Office of Education,County Office of Education (COE),0,4503510,Inf,NA,NA,41.666666666666664,40-55%,TRUE,TRUE,FALSE,FALSE
+2022_23,Alpine,Alpine County Office of Education,County Office of Education (COE),0,1134518,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2022_23,Siskiyou,Forks of Salmon Elementary,NA,6.8,112157,16493.676470588234,3735.5882352941176,Inf,NA,NA,FALSE,FALSE,FALSE,TRUE
+2022_23,Lassen,Lassen County Office of Education,County Office of Education (COE),0,4417822,Inf,NA,NA,23.076923076923077,0-25%,TRUE,TRUE,FALSE,FALSE
+2022_23,Modoc,Modoc County Office of Education,NA,0,1903699,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2022_23,Plumas,Plumas County Office of Education,County Office of Education (COE),0,1845175,Inf,NA,NA,100,70%+,TRUE,TRUE,FALSE,FALSE
+2022_23,Sierra,Sierra County Office of Education,NA,0,1163667,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2022_23,Siskiyou,Siskiyou County Office of Education,County Office of Education (COE),0,9500680,Inf,NA,NA,32.35294117647059,25-40%,TRUE,TRUE,FALSE,FALSE
+2023_24,Alpine,Alpine County Office of Education,County Office of Education (COE),0,1227695,Inf,NA,NA,100,70%+,TRUE,TRUE,FALSE,FALSE
+2023_24,Lassen,Lassen County Office of Education,County Office of Education (COE),0,4783636,Inf,NA,NA,42.857142857142854,40-55%,TRUE,TRUE,FALSE,FALSE
+2023_24,Modoc,Modoc County Office of Education,NA,0,2060842,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2023_24,Plumas,Plumas County Office of Education,County Office of Education (COE),0,1952988,Inf,NA,NA,84.61538461538461,70%+,TRUE,TRUE,FALSE,FALSE
+2023_24,Sierra,Sierra County Office of Education,NA,0,1259958,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2024_25,Alpine,Alpine County Office of Education,County Office of Education (COE),0,1240132,Inf,NA,NA,100,70%+,TRUE,TRUE,FALSE,FALSE
+2024_25,Lassen,Lassen County Office of Education,County Office of Education (COE),0,4832560,Inf,NA,NA,33.333333333333336,25-40%,TRUE,TRUE,FALSE,FALSE
+2024_25,Modoc,Modoc County Office of Education,NA,0,2084471,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2024_25,Plumas,Plumas County Office of Education,County Office of Education (COE),0,1968196,Inf,NA,NA,66.66666666666667,55-70%,TRUE,TRUE,FALSE,FALSE
+2024_25,Sierra,Sierra County Office of Education,NA,0,1275920,Inf,NA,NA,NA,NA,TRUE,TRUE,FALSE,FALSE
+2024_25,Siskiyou,Siskiyou County Office of Education,County Office of Education (COE),0,10041888,Inf,NA,NA,64.78873239436619,55-70%,TRUE,TRUE,FALSE,FALSE

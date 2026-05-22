@@ -1,0 +1,2 @@
+dataset,rows,school_years,unique_districts,duplicate_year_district,missing_district_cds_code,missing_district_name,missing_total_lcff_entitlement,missing_upc,missing_current_expense_per_ada,missing_district_cumulative_enrollment,missing_homeless_student_enrollment,missing_ela_distance,missing_math_distance,missing_graduation_rate
+district_year_panel,5987,6,1003,0,0,0,0,1,409,22,15,2281,2280,2909

@@ -1,0 +1,3 @@
+dataset,rows,school_years,subjects,unique_cds_codes,duplicate_subject_year_cds_group,missing_cds_code,missing_district_name,missing_current_denominator,missing_current_distance_from_standard
+academic_indicator_district_long,164224,5,2,1001,0,0,0,0,44058
+academic_indicator_district_total,9892,5,2,1001,0,0,0,0,603

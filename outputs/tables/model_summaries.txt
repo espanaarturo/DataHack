@@ -1,0 +1,133 @@
+MODEL A: Funding Targeting
+Sample size: 5622 
+
+
+Call:
+lm(formula = supp_conc_per_ada ~ upc_percentage + english_learner_percentage + 
+    foster_percentage + homeless_percentage_lcff_upc + factor(school_year), 
+    data = model_a_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2287.45  -318.27   -41.42   309.80  2237.18 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                  -1242.9733    21.9504 -56.626  < 2e-16 ***
+upc_percentage                  43.4545     0.3522 123.393  < 2e-16 ***
+english_learner_percentage      10.7857     0.5248  20.553  < 2e-16 ***
+foster_percentage               30.8987     7.3952   4.178 2.98e-05 ***
+homeless_percentage_lcff_upc    -0.1088     1.0867  -0.100    0.920    
+factor(school_year)2020_21      18.1311    21.7944   0.832    0.405    
+factor(school_year)2021_22     240.0294    21.7768  11.022  < 2e-16 ***
+factor(school_year)2022_23     444.1156    21.7825  20.389  < 2e-16 ***
+factor(school_year)2023_24     622.2575    21.7927  28.553  < 2e-16 ***
+factor(school_year)2024_25     709.2917    21.8546  32.455  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 471.1 on 5612 degrees of freedom
+Multiple R-squared:  0.8718,	Adjusted R-squared:  0.8716 
+F-statistic:  4242 on 9 and 5612 DF,  p-value: < 2.2e-16
+
+
+
+MODEL B1: ELA Outcomes
+Sample size: 3564 
+
+
+Call:
+lm(formula = ela_current_distance_from_standard ~ supp_conc_per_ada + 
+    upc_percentage + spending_per_ada + factor(district_type) + 
+    factor(school_year), data = model_b_ela_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-349.67  -15.81    0.20   18.75   83.88 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                   7.217e+01  2.412e+00  29.919  < 2e-16 ***
+supp_conc_per_ada             6.270e-03  1.011e-03   6.201 6.27e-10 ***
+upc_percentage               -1.613e+00  5.781e-02 -27.900  < 2e-16 ***
+spending_per_ada             -2.270e-04  5.866e-05  -3.869 0.000111 ***
+factor(district_type)High     1.317e+01  1.893e+00   6.959 4.05e-12 ***
+factor(district_type)Unified -5.287e-01  1.049e+00  -0.504 0.614276    
+factor(school_year)2022_23   -1.872e-01  1.418e+00  -0.132 0.895018    
+factor(school_year)2023_24    7.736e-01  1.453e+00   0.532 0.594414    
+factor(school_year)2024_25    5.453e+00  1.476e+00   3.693 0.000225 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 29.55 on 3555 degrees of freedom
+Multiple R-squared:  0.5434,	Adjusted R-squared:  0.5424 
+F-statistic: 528.8 on 8 and 3555 DF,  p-value: < 2.2e-16
+
+
+
+MODEL B2: Math Outcomes
+Sample size: 3564 
+
+
+Call:
+lm(formula = math_current_distance_from_standard ~ supp_conc_per_ada + 
+    upc_percentage + spending_per_ada + factor(district_type) + 
+    factor(school_year), data = model_b_math_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-345.01  -17.43   -0.35   18.21  110.02 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                   6.042e+01  2.568e+00  23.527  < 2e-16 ***
+supp_conc_per_ada             7.730e-03  1.076e-03   7.181 8.40e-13 ***
+upc_percentage               -1.930e+00  6.154e-02 -31.363  < 2e-16 ***
+spending_per_ada             -1.315e-04  6.246e-05  -2.106  0.03525 *  
+factor(district_type)High    -4.640e+01  2.015e+00 -23.028  < 2e-16 ***
+factor(district_type)Unified -1.083e+01  1.117e+00  -9.701  < 2e-16 ***
+factor(school_year)2022_23    2.449e+00  1.510e+00   1.622  0.10494    
+factor(school_year)2023_24    4.902e+00  1.547e+00   3.170  0.00154 ** 
+factor(school_year)2024_25    7.428e+00  1.572e+00   4.725 2.39e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 31.46 on 3555 degrees of freedom
+Multiple R-squared:  0.6101,	Adjusted R-squared:  0.6092 
+F-statistic: 695.4 on 8 and 3555 DF,  p-value: < 2.2e-16
+
+
+
+MODEL C: Graduation Outcomes
+Sample size: 2751 
+
+
+Call:
+lm(formula = graduation_rate ~ supp_conc_per_ada + upc_percentage + 
+    spending_per_ada + factor(district_type) + factor(school_year), 
+    data = model_c_graduation_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-90.095  -2.052   1.996   5.712  28.563 
+
+Coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                   8.112e+01  1.462e+00  55.502  < 2e-16 ***
+supp_conc_per_ada            -9.588e-04  5.432e-04  -1.765  0.07765 .  
+upc_percentage               -7.882e-02  2.967e-02  -2.657  0.00793 ** 
+spending_per_ada             -5.143e-05  1.948e-05  -2.639  0.00835 ** 
+factor(district_type)High     1.194e+01  9.683e-01  12.326  < 2e-16 ***
+factor(district_type)Unified  1.182e+01  7.793e-01  15.174  < 2e-16 ***
+factor(school_year)2020_21    1.759e+00  8.607e-01   2.044  0.04105 *  
+factor(school_year)2021_22    4.780e+00  8.750e-01   5.463 5.09e-08 ***
+factor(school_year)2022_23    4.505e+00  9.032e-01   4.987 6.50e-07 ***
+factor(school_year)2023_24    5.904e+00  9.409e-01   6.275 4.06e-10 ***
+factor(school_year)2024_25    7.014e+00  9.601e-01   7.305 3.61e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 13.02 on 2740 degrees of freedom
+Multiple R-squared:  0.1491,	Adjusted R-squared:  0.146 
+F-statistic: 48.01 on 10 and 2740 DF,  p-value: < 2.2e-16
+
