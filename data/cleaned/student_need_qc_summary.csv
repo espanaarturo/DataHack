@@ -1,0 +1,5 @@
+dataset,rows,school_years,unique_cds_codes,duplicate_year_cds_category,missing_cds_code,missing_district_name,missing_enrollment
+cumulative_enrollment_district_long,107363,6,1038,0,0,0,28813
+cumulative_enrollment_district_total,6126,6,1038,0,0,0,0
+homeless_enrollment_district_long,141014,6,1038,0,0,0,0
+homeless_enrollment_district_total,6133,6,1038,0,0,0,0

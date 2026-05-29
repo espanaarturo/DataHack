@@ -1,0 +1,3 @@
+dataset,rows,school_years,unique_cds_codes,duplicate_year_cds_category,missing_cds_code,missing_district_name,missing_cohort_students,missing_graduation_rate,missing_dropout_rate
+graduation_outcomes_district_long,58296,6,583,0,0,0,25132,25132,25132
+graduation_outcomes_district_total,3306,6,560,0,0,0,134,134,134

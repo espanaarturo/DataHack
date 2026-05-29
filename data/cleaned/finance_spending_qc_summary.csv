@@ -1,0 +1,2 @@
+dataset,rows,school_years,unique_cds_codes,duplicate_year_cds,missing_cds_code,missing_district_name,missing_current_expense_total,missing_current_expense_ada,missing_current_expense_per_ada,max_abs_per_ada_diff
+current_expense_district,5609,6,940,0,0,0,0,0,1,0.004999999995561666
